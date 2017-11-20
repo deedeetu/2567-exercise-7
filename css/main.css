@@ -479,7 +479,7 @@ dd { margin-left: 10px; }
 	
 	dl {
 		text-align: left;
-		padding-left: 100px;
+		padding-left: 90px;
 	}
 	
 	dt { float: left; width: 90px; }
@@ -487,5 +487,12 @@ dd { margin-left: 10px; }
 	
 	.col-1-6 {
 		width: 100%;
+	}
+	
+	.col-1-6 img {
+		height: 50px;
+		display: block;
+		margin: 0 auto;
+		
 	}
 }
