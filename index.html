@@ -26,11 +26,11 @@
 <body>
 
 <!-- ===========HERO & NAV=============== -->
-<header class="p-t-md" id="hero">
+<header id="hero">
 	<div class="wrapper">
     	<div class="row">
             <figure class="col-1-6">       
-                <img src="img/logo.png" alt="creativeworks logo">
+				<h1><img src="img/logo.png" alt="zendesk"></h1>
             </figure>
             <nav class="col-3-5 push-right txt-uppercase" id="smooth-scroll"> 
                 <ul>
@@ -40,9 +40,9 @@
                 </ul>
             </nav>
         </div>
-        <div class="row p-t-lg p-b-lg">
+        <div class="row">
         	<div class="col-1-2 center-block txt-uppercase txt-center">
-            	<h1>Good ideas come First!</h1>
+            	<p>Good ideas come First!</p>
             </div>
         </div>
     </div>
@@ -50,11 +50,13 @@
 
 <!-- ===========OUR SERVICES=============== -->
 
-<section class="p-t-lg p-b-xl" id="services">
+<section id="services">
 	<div class="wrapper">
     	<div class="row txt-center">
         	<div class="col-9-12 center-block">
-            	<h2 class=" txt-uppercase">Our Services</h2>
+				<header>
+            		<h2 class=" txt-uppercase">Our Services</h2>
+				</header>
                 <p class="lead txt-uppercase">Lorem ipsum dolor sit amet, usu <span>nemore oporteat</span> lobortis ad, eos soleat verear cotidieque id. </p>
                 <p>Vis te veri tritani, at quodsi commune has, probo maiestatis ei has. Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, &amp; indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et. </p>
             </div>
@@ -70,7 +72,9 @@
             </div>
             <div class="col-1-4">
             	<section>
-                    <h3 class="txt-uppercase">Design</h3>
+					<header>
+                    	<h3 class="txt-uppercase">Design</h3>
+					</header>
                     <p>Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et.</p>
                 </section>
             </div>
@@ -84,7 +88,9 @@
             </div>
             <div class="col-1-4">
             	<section>
-                    <h3 class="txt-uppercase">Launch</h3>
+					<header>
+                    	<h3 class="txt-uppercase">Launch</h3>
+					</header>
                     <p>Molestie suscipiantur concludaturque cu has, nam ne omnesque antiopam, indoctum complectitur pro ad. Ea cum diam malorum vivendum, vel quod commodo repudiandae et. Ea cum diam malorum vivendum.</p>
                 </section>
             </div>
@@ -93,7 +99,7 @@
 </section>
 
 
-<footer class="p-t-lg p-b-lg" id="contact">
+<footer id="contact">
 	<div class="wrapper">
     	<div class="row txt-center">
         	<div class="col-9-12 center-block">
@@ -107,15 +113,15 @@
                     <div class="col-1-2">
                     	<h3>Address</h3>
                         <h4>Zendesk</h4>
-                        <p class="m-t-0 m-b-lg">123 Fake Street<br/>
-                        Fakersvill, FA 12345-1234</p>
+                        <address><p>123 Fake Street<br/>
+                        Fakersvill, FA 12345-1234</p></address>
                         <dl>
                         	<dt>Phone:</dt>
-                            <dd>123.123.1234</dd>
+                            <dd><a href="tel:+11231231234">123.123.1234</a></dd>
                             <dt>Fax:</dt>
                             <dd>123.123.1234</dd>
                             <dt>Email:</dt>
-                            <dd>hello@zendesk.com</dd>
+                            <dd><a href="mailto:hello@zendesk.com">hello@zendesk.com</a></dd>
                             <dt>Skype:</dt>
                             <dd>Zendesk</dd>
                         </dl>
@@ -124,7 +130,7 @@
                     </div>
                 </div>
             </section>
-            <div class="col-1-2 p-t-lg">
+            <div class="col-1-2">
                 <form class="row">
                 	<div class="col-1-2">
                     <label>First &amp; Last Name:</label>
@@ -134,12 +140,10 @@
                         <label>Your email:</label>
                         <input name="email" type="text" placeholder="Email" />
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 txt-center">
                         <label for="message">Your message:</label>
                         <textarea id="message" name="message" rows="7" placeholder="Message"></textarea>
-                        <div class="txt-center">
-                            <a href="#">Submit</a>
-                        </div>
+                        <p><a href="#">Submit</a></p>
                     </div>
                 </form>
             </div>
