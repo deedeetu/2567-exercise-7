@@ -54,7 +54,7 @@ body {
 /*--------------------------------------------------------------
 1.2 - HEADINGS
 -------------------------------------------------------------- */
-#hero p {
+h1 {
     font-size: 5.5rem;
     background-color: rgba(255,255,255,.5);
     line-height: 5rem;
@@ -80,10 +80,11 @@ h4 {
 -------------------------------------------------------------- */
 
 form a {
+	margin-top: 20px;
 	padding:10px 20px;
 	background-color: #146c57;
 	text-transform: uppercase;
-	color: #fff;
+	color: white;
 	text-decoration: none;
 	display:inline-block;
 	font-weight: 600;
@@ -100,9 +101,10 @@ form a:hover {
 -------------------------------------------------------------- */
 form {
 	padding-left:20px;
-	margin-top: 10px;
 }
-
+form div {
+	padding: 10px;
+}
 form .col-1 {
 	padding-right: 2rem !important;
 }
@@ -114,9 +116,6 @@ input, textarea {
 	width: 100%;
 	padding: 10px;
 	border:1px solid #19896e;
-}
-textarea {
-	height: 80px;
 }
 input:focus, textarea:focus {
 	outline:none;
@@ -352,7 +351,7 @@ figure {
 3.3 - SECTIONS
 -------------------------------------------------------------- */
 /*-- Services -- */
-#services div section {
+#services section div {
 	background-color: #1c7897;
 	padding:20px 10px;
 }
@@ -371,7 +370,7 @@ figure {
 
 #map {
 	height: 200px;
-	margin-top:40px;
+	margin-top:100px;
 }
 
 /*--------------------------------------------------------------
@@ -399,6 +398,7 @@ figure {
 /*--------------------------------------------------------------
 5.3 - SPACING
 -------------------------------------------------------------- */
+
 header {
 	padding-top: 20px;
 }
@@ -414,7 +414,6 @@ footer {
 form {
 	padding-top: 30px;
 }
-
 /*--------------------------------------------------------------
 5.4 - ALIGNMENTS
 -------------------------------------------------------------- */
@@ -439,6 +438,7 @@ dd { margin-left: 10px; }
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 
 
 
